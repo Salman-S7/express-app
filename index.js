@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-  res.status(200).json({ msg: "Successfully tested" });
+  res.status(200).json({ msg: "Successfully tested123" });
 });
 
 app.listen(3000, () => {
